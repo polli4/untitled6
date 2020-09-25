@@ -19,7 +19,7 @@ const store = new Vuex.Store({
             console.log(state.tweets.length)
             console.log(state.tweet.id)
             for (let index in state.tweets.length){
-                console.log(2)
+                console.log(2)   
                 if(index.id === id){
                     state.tweets[index].likes++
                 }
